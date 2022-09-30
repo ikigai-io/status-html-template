@@ -49,7 +49,7 @@
 
                           <div class="list-group-item">
                               <h4 class="list-group-item-heading">
-                                  
+
                                   <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access website and use site API">
                                     <i class="fa fa-question-circle"></i>
                                   </a>
@@ -61,7 +61,7 @@
 
                           <div class="list-group-item">
                               <h4 class="list-group-item-heading">
-                                  
+
                                   <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access website and use site API">
                                     <i class="fa fa-question-circle"></i>
                                   </a>
