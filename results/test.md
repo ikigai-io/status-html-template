@@ -37,59 +37,39 @@
 
                           <div class="list-group-item">
                               <h4 class="list-group-item-heading">
-                                  Mantra API
+                                  None
                                   <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access website and use site API">
                                     <i class="fa fa-question-circle"></i>
                                   </a>
                               </h4>
                               <p class="list-group-item-text">
-                                  <span class="label label-danger">Filed to complie or test</span>
+                                  <span class="label None">None</span>
                               </p>
                           </div>
 
                           <div class="list-group-item">
                               <h4 class="list-group-item-heading">
-                                  SSH
-                                  <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access site using SSH terminal">
+                                  
+                                  <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access website and use site API">
                                     <i class="fa fa-question-circle"></i>
                                   </a>
                               </h4>
                               <p class="list-group-item-text">
-                                  <span class="label label-success">Operational</span>
+                                  <span class="label "></span>
                               </p>
                           </div>
 
                           <div class="list-group-item">
                               <h4 class="list-group-item-heading">
-                                  Database Server
-                                  <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access database server and execute queries">
+                                  
+                                  <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access website and use site API">
                                     <i class="fa fa-question-circle"></i>
                                   </a>
                               </h4>
                               <p class="list-group-item-text">
-                                  <span class="label label-success">Operational</span>
+                                  <span class="label "></span>
                               </p>
                           </div>
-                          <script type="text/javascript">
-
-                            // Use a regular for-loop
-                            for (let i = 0; i < 2; i++) {
-                              console.log(
-                                <div class="list-group-item">
-                                    <h4 class="list-group-item-heading">
-                                        Yeah Server
-                                        <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access database server and execute queries">
-                                          <i class="fa fa-question-circle"></i>
-                                        </a>
-                                    </h4>
-                                    <p class="list-group-item-text">
-                                        <span class="label label-success">Operational</span>
-                                    </p>
-                                </div>
-                              )
-                            }
-                        </script>
-
                       </div>
                   </div>
               </div>

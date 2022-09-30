@@ -11,9 +11,9 @@ templates = glob.glob('templates/*.md')
 
 def render_template(filename):
     return env.get_template(filename).render(
-        APP1='Mantra API',
-        APP1_STATUS='label-danger',
-        APP1_STATUS_DESCRIPTION='Filed to complie or test'
+        APP1=os.environ.get('APP1'),
+        APP1_STATUS=os.environ.get('APP1_STATUS'),
+        APP1_STATUS_DESCRIPTION=os.environ.get('APP1_STATUS_DESCRIPTION')
     )
 
 for f in templates:
