@@ -29,19 +29,21 @@
                   </h3>
                 </div>                
               </div>
+
+
               <div class="row clearfix">
                   <div class="col-md-12 column">
                       <div class="list-group">
 
                           <div class="list-group-item">
                               <h4 class="list-group-item-heading">
-                                  Website and API
+                                  {{ APP1 }}
                                   <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access website and use site API">
                                     <i class="fa fa-question-circle"></i>
                                   </a>
                               </h4>
                               <p class="list-group-item-text">
-                                  <span class="label label-danger">Not Operational</span>
+                                  <span class="label {{ APP1_STATUS }}">{{ APP1_STATUS_DESCRIPTION }}</span>
                               </p>
                           </div>
 
