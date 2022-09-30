@@ -49,47 +49,27 @@
 
                           <div class="list-group-item">
                               <h4 class="list-group-item-heading">
-                                  SSH
-                                  <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access site using SSH terminal">
+                                  {{ APP2 }}
+                                  <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access website and use site API">
                                     <i class="fa fa-question-circle"></i>
                                   </a>
                               </h4>
                               <p class="list-group-item-text">
-                                  <span class="label label-success">Operational</span>
+                                  <span class="label {{ APP2_STATUS }}">{{ APP2_STATUS_DESCRIPTION }}</span>
                               </p>
                           </div>
 
                           <div class="list-group-item">
                               <h4 class="list-group-item-heading">
-                                  Database Server
-                                  <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access database server and execute queries">
+                                  {{ APP3 }}
+                                  <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access website and use site API">
                                     <i class="fa fa-question-circle"></i>
                                   </a>
                               </h4>
                               <p class="list-group-item-text">
-                                  <span class="label label-success">Operational</span>
+                                  <span class="label {{ APP3_STATUS }}">{{ APP3_STATUS_DESCRIPTION }}</span>
                               </p>
                           </div>
-                          <script type="text/javascript">
-
-                            // Use a regular for-loop
-                            for (let i = 0; i < 2; i++) {
-                              console.log(
-                                <div class="list-group-item">
-                                    <h4 class="list-group-item-heading">
-                                        Yeah Server
-                                        <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access database server and execute queries">
-                                          <i class="fa fa-question-circle"></i>
-                                        </a>
-                                    </h4>
-                                    <p class="list-group-item-text">
-                                        <span class="label label-success">Operational</span>
-                                    </p>
-                                </div>
-                              )
-                            }
-                        </script>
-
                       </div>
                   </div>
               </div>
