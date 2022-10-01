@@ -1,8 +1,11 @@
 <html>
-  <head>
-    <title>Body bgcolor Attribute example</title>
-  </head>
-  <body bgcolor="white">
-    <h1>Main</h1>
-  </body>
+ <body>
+ 
+    <a href="./2022-10-10.md">2022-10-10</a>
+
+    <a href="./2022-10-1.md">2022-10-1</a>
+
+    <a href="./2022-09-30.md">2022-09-30</a>
+
+</body>
 </html>
