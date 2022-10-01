@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
  <body>
    <table>
@@ -7,19 +6,15 @@
      </tr>
      
        <tr>
-          <td> <a href="./results/2022-10-5.html">2022-10-5</a></td>
+          <a href="./2022-10-10.md">2022-10-10</a>
        </tr>  
     
        <tr>
-          <td> <a href="./results/2022-10-10.html">2022-10-10</a></td>
+          <a href="./2022-10-1.md">2022-10-1</a>
        </tr>  
     
        <tr>
-          <td> <a href="./results/2022-10-1.html">2022-10-1</a></td>
-       </tr>  
-    
-       <tr>
-          <td> <a href="./results/2022-09-30.html">2022-09-30</a></td>
+          <a href="./2022-09-30.md">2022-09-30</a>
        </tr>  
     
    </table>
