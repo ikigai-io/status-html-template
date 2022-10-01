@@ -7,6 +7,10 @@
      </tr>
      
        <tr>
+          <td> <a href="./public/results/2022-10-6.html">2022-10-6</a></td>
+       </tr>  
+    
+       <tr>
           <td> <a href="./public/results/2022-10-5.html">2022-10-5</a></td>
        </tr>  
     
