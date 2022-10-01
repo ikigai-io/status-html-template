@@ -24,7 +24,7 @@ for f in templates:
     if f == 'templates/status-template.md':
       filename = "./public/results/%s.md" % (os.environ.get('DATE'))
     elif f == 'templates/index.md':
-      filename = "./public/index.md"
+      filename = "./index.md"
     else:
       filename = "./public/none"
     with open(filename, 'w') as newFile:
