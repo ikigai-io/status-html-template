@@ -32,11 +32,11 @@ jobs:
           TAG_NAME: nightly-tag-${{ steps.date.outputs.date }}
           RELEASE_NAME: nightly-release-${{ steps.date.outputs.date }}
 
-      # - name: Checkout Results
-      #   uses: Bhacaz/checkout-files@v2
-      #   with:
-      #    files: public
-      #    branch: gh-pages
+      - name: Checkout Results
+        uses: Bhacaz/checkout-files@v2
+        with:
+         files: public
+         branch: gh-pages
 
       - uses: actions/setup-python@v4
         with:
