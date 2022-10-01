@@ -32,6 +32,12 @@ jobs:
           TAG_NAME: nightly-tag-${{ steps.date.outputs.date }}
           RELEASE_NAME: nightly-release-${{ steps.date.outputs.date }}
 
+      - name: Checkout Results
+        uses: Bhacaz/checkout-files@v2
+        with:
+         files: public
+         branch: gh-pages
+
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
@@ -42,7 +48,7 @@ jobs:
           python3 htmlGenerator.py
         env:
           # DATE: ${{ steps.date.outputs.date }}
-          DATE: '2022-10-21'
+          DATE: '2022-10-5'
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
