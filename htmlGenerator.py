@@ -1,6 +1,7 @@
 import os
 import sys
 import glob
+import datetime
 from jinja2 import Environment, FileSystemLoader
 
 # Create the jinja2 environment.
@@ -13,7 +14,7 @@ def render_template(filename):
         APP1=os.environ.get('APP1'),
         APP1_STATUS=os.environ.get('APP1_STATUS'),
         APP1_STATUS_DESCRIPTION=os.environ.get('APP1_STATUS_DESCRIPTION'),
-        data=sorted(listFiles, reverse=True)
+        data=sorted(listFiles, key=lambda x: datetime.datetime.strptime(x, '%Y-%m-%d'))
     )
 
 original_stdout = sys.stdout # Save a reference to the original standard output
