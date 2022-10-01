@@ -7,7 +7,7 @@
      </tr>
      {% for item in data %}
        <tr>
-          <td> <a href="./results/{{ item }}.html">{{ item }}</a></td>
+          <td> <a href="./public/results/{{ item }}.html">{{ item }}</a></td>
        </tr>  
     {% endfor %}
    </table>
