@@ -41,7 +41,8 @@ jobs:
           pip install -r requirements.txt
           python3 htmlGenerator.py
         env:
-          DATE: ${{ steps.date.outputs.date }}
+          # DATE: ${{ steps.date.outputs.date }}
+          DATE: '2022-10-2'
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
