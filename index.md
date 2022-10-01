@@ -7,19 +7,19 @@
      </tr>
      
        <tr>
-          <td> <a href="./results/2022-10-21.md">2022-10-21</a></td>
+          <td> <a href="./results/2022-10-21.html">2022-10-21</a></td>
        </tr>  
     
        <tr>
-          <td> <a href="./results/2022-10-10.md">2022-10-10</a></td>
+          <td> <a href="./results/2022-10-10.html">2022-10-10</a></td>
        </tr>  
     
        <tr>
-          <td> <a href="./results/2022-10-1.md">2022-10-1</a></td>
+          <td> <a href="./results/2022-10-1.html">2022-10-1</a></td>
        </tr>  
     
        <tr>
-          <td> <a href="./results/2022-09-30.md">2022-09-30</a></td>
+          <td> <a href="./results/2022-09-30.html">2022-09-30</a></td>
        </tr>  
     
    </table>
