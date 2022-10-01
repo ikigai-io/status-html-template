@@ -39,7 +39,7 @@ jobs:
       - name: Generate Report
         run: |
           pip install -r requirements.txt
-          python3 htmlGenerator.py > ./results/$DATE.md
+          python3 htmlGenerator.py > ./public/results/$DATE.md
         env:
           DATE: ${{ steps.date.outputs.date }}
 
