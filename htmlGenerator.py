@@ -19,12 +19,12 @@ def render_template(filename):
 
 original_stdout = sys.stdout # Save a reference to the original standard output
 # Find all files with the j2 extension in the current directory
-templates = glob.glob('templates/*.md')
+templates = glob.glob('templates/*.tpl')
 for f in templates:
     # rendered_string = render_template(f)
-    if f == 'templates/status-template.md':
+    if f == 'templates/status-template.tpl':
       filename = "./public/results/%s.md" % (os.environ.get('DATE'))
-    elif f == 'templates/index.md':
+  elif f == 'templates/index.tpl':
       filename = "./index.md"
     else:
       filename = "./public/none"
