@@ -50,7 +50,7 @@ jobs:
           python3 htmlGenerator.py
         env:
           # DATE: ${{ steps.date.outputs.date }}
-          DATE: '2022-10-9'
+          DATE: '2022-10-11'
           APP1: MantraApi
           APP1_STATUS: ${{ steps.test.outcome }}
           APP2: MantraApiWeb

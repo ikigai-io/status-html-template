@@ -76,11 +76,11 @@
                             </h4>
                             {% if "success" in APP3_STATUS %}
                             <p class="list-group-item-text">
-                                <span class="label label-success">Complied and Build success</span>
+                                <span class="label label-failure">Complied and Build failure</span>
                             </p>
                             {% elif "failure" in APP3_STATUS %}
                             <p class="list-group-item-text">
-                                <span class="label label-failure">{Complied and Build failure</span>
+                                <span class="label label-failure">Complied and Build failure</span>
                             </p>
                             {% endif %}
                           </div>
