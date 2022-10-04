@@ -78,7 +78,7 @@
                             <p class="list-group-item-text">
                                 <span class="label label-success">Complied and Build success</span>
                             </p>
-                            {% else %}
+                            {% elif "failure" in APP3_STATUS%}
                             <p class="list-group-item-text">
                                 <span class="label label-failure">{Complied and Build failure</span>
                             </p>
