@@ -32,7 +32,7 @@
 
               <div class="row clearfix">
                   <div class="col-md-12 column">
-                      <div class="list-group">g
+                      <div class="list-group">
                           <div class="list-group-item">
                             <h4 class="list-group-item-heading">
                                 {{ APP1 }}
