@@ -23,7 +23,7 @@
               <div class="panel panel-warning">
                 <div class="panel-heading">
                   <h3 class="panel-title">
-                    Not All Systems Operational
+                    Mantra system complied and build result
                     <small class="pull-right">Refreshed 40 minutes ago</small>
                   </h3>
                 </div>
