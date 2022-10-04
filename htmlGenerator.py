@@ -13,18 +13,21 @@ def render_template(filename):
     return env.get_template(filename).render(
         APP1=os.environ.get('APP1'),
         APP1_STATUS=os.environ.get('APP1_STATUS'),
-        APP1_STATUS_DESCRIPTION=os.environ.get('APP1_STATUS_DESCRIPTION'),
+        APP2=os.environ.get('APP2'),
+        APP2_STATUS=os.environ.get('APP2_STATUS'),
+        APP3=os.environ.get('APP3'),
+        APP3_STATUS=os.environ.get('APP3_STATUS'),
         data=sorted(listFiles, key=lambda x: datetime.datetime.strptime(x, '%Y-%m-%d'), reverse=True)
     )
 
 original_stdout = sys.stdout # Save a reference to the original standard output
 # Find all files with the j2 extension in the current directory
-templates = glob.glob('templates/*.md')
+templates = glob.glob('.github/templates/*.md')
 for f in templates:
     # rendered_string = render_template(f)
-    if f == 'templates/status-template.md':
+    if f == '.github/templates/status-template.md':
       filename = "./public/results/%s.md" % (os.environ.get('DATE'))
-    elif f == 'templates/index.md':
+    elif f == '.github/templates/index.md':
       filename = "./index.md"
     else:
       filename = "./public/none"

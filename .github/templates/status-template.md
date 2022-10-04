@@ -32,7 +32,7 @@
 
               <div class="row clearfix">
                   <div class="col-md-12 column">
-                      <div class="list-group">
+                      <div class="list-group">g
                           <div class="list-group-item">
                             <h4 class="list-group-item-heading">
                                 {{ APP1 }}
@@ -47,6 +47,40 @@
                             {% else %}
                             <p class="list-group-item-text">
                                 <span class="label label-failure">Complied and Build failure</span>
+                            </p>
+                            {% endif %}
+                          </div>                    
+                          <div class="list-group-item">
+                            <h4 class="list-group-item-heading">
+                                {{ APP2 }}
+                                <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access website and use site API">
+                                  <i class="fa fa-question-circle"></i>
+                                </a>
+                            </h4>
+                            {% if "success" in APP2_STATUS %}
+                            <p class="list-group-item-text">
+                                <span class="label label-success">Complied and Build success</span>
+                            </p>
+                            {% else %}
+                            <p class="list-group-item-text">
+                                <span class="label label-failure">Complied and Build failure</span>
+                            </p>
+                            {% endif %}
+                          </div>
+                          <div class="list-group-item">
+                            <h4 class="list-group-item-heading">
+                                {{ APP3 }}
+                                <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access website and use site API">
+                                  <i class="fa fa-question-circle"></i>
+                                </a>
+                            </h4>
+                            {% if "success" in APP3_STATUS %}
+                            <p class="list-group-item-text">
+                                <span class="label label-success">Complied and Build success</span>
+                            </p>
+                            {% else %}
+                            <p class="list-group-item-text">
+                                <span class="label label-failure">{Complied and Build failure</span>
                             </p>
                             {% endif %}
                           </div>
