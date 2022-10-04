@@ -56,7 +56,7 @@ jobs:
           APP2: MantraApiWeb
           APP2_STATUS: ${{ steps.test.outcome }}
           APP3: MatraAdminApi
-          APP3_STATUS: failure
+          APP3_STATUS: 'failure'
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
