@@ -50,13 +50,13 @@ jobs:
           python3 htmlGenerator.py
         env:
           # DATE: ${{ steps.date.outputs.date }}
-          DATE: '2022-10-11'
+          DATE: '2022-10-12'
           APP1: MantraApi
           APP1_STATUS: ${{ steps.test.outcome }}
           APP2: MantraApiWeb
           APP2_STATUS: ${{ steps.test.outcome }}
           APP3: MatraAdminApi
-          APP3_STATUS: ${{ steps.test.outcome }}
+          APP3_STATUS: failure
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
