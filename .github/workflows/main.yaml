@@ -39,8 +39,10 @@ jobs:
          branch: gh-pages
 
       - uses: actions/setup-python@v4
+        id: test
         with:
           python-version: '3.10'
+        continue-on-error: true
 
       - name: Generate Report
         run: |
@@ -49,6 +51,12 @@ jobs:
         env:
           # DATE: ${{ steps.date.outputs.date }}
           DATE: '2022-10-6'
+          APP1: MantraApi
+          APP1_STATUS: steps.test.outcome
+          APP2: MantraApiWeb
+          APP2_STATUS: steps.test.outcome
+          APP3: MatraAdminApi
+          APP3_STATUS: steps.test.outcome
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
